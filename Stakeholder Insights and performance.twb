@@ -1,0 +1,3232 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20261.26.0226.1626                               -->
+<workbook original-version='18.1' source-build='2026.1.0 (20261.26.0226.1626)' source-platform='win' version='18.1' xml:base='https://public.tableau.com' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AccessibleZoneTabOrder />
+    <AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <BasicButtonObject />
+    <BasicButtonObjectTextSupport />
+    <DashboardExportButton />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+    <ZoneBackgroundTransparency />
+  </document-format-change-manifest>
+  <repository-location id='StakeholderInsightsandperformance' path='/workbooks' revision='1.0' />
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Finance Sheet (Finance record)' inline='true' name='federated.05cjvnv0puyauy192nj4z06se5wq' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Finance record' name='excel-direct.1bsedjf1ijhww919xnzs405eh2zw'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/USER/Downloads/Finance record.xlsx' interpretationMode='0' password='' server='' validate='no' workgroup-auth-mode='as-is' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.1bsedjf1ijhww919xnzs405eh2zw' name='Finance Sheet' table='[&apos;Finance Sheet$&apos;]' type='table'>
+          <columns gridOrigin='A1:R10000:no:A1:R10000:0' header='yes' outcome='6'>
+            <column datatype='real' name='ID' ordinal='0' />
+            <column datatype='string' name='Stakeholder' ordinal='1' />
+            <column datatype='string' name='Insurer' ordinal='2' />
+            <column datatype='real' name='Value Created' ordinal='3' />
+            <column datatype='string' name='Sahreholding pattern' ordinal='4' />
+            <column datatype='string' name='City' ordinal='5' />
+            <column datatype='string' name='Brokers' ordinal='6' />
+            <column datatype='string' name='Premium' ordinal='7' />
+            <column datatype='date' name='Date' ordinal='8' />
+            <column datatype='string' name='Premium 1' ordinal='9' />
+            <column datatype='string' name='Profitability' ordinal='10' />
+            <column datatype='string' name='Cost ratio' ordinal='11' />
+            <column datatype='string' name='Assets under management' ordinal='12' />
+            <column datatype='string' name='Educational qualifications' ordinal='13' />
+            <column datatype='string' name='People' ordinal='14' />
+            <column datatype='string' name='Policy tenuer' ordinal='15' />
+            <column datatype='string' name='Gender' ordinal='16' />
+            <column datatype='real' name='Age' ordinal='17' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Finance Sheet]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:R10000:no:A1:R10000:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ID</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[ID]</local-name>
+            <parent-name>[Finance Sheet]</parent-name>
+            <remote-alias>ID</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Finance Sheet_5F20D151A31848B58EA1052D7BE95F14]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Stakeholder</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Stakeholder]</local-name>
+            <parent-name>[Finance Sheet]</parent-name>
+            <remote-alias>Stakeholder</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Finance Sheet_5F20D151A31848B58EA1052D7BE95F14]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Insurer</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Insurer]</local-name>
+            <parent-name>[Finance Sheet]</parent-name>
+            <remote-alias>Insurer</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Finance Sheet_5F20D151A31848B58EA1052D7BE95F14]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Value Created</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Value Created]</local-name>
+            <parent-name>[Finance Sheet]</parent-name>
+            <remote-alias>Value Created</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Finance Sheet_5F20D151A31848B58EA1052D7BE95F14]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sahreholding pattern</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Sahreholding pattern]</local-name>
+            <parent-name>[Finance Sheet]</parent-name>
+            <remote-alias>Sahreholding pattern</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Finance Sheet_5F20D151A31848B58EA1052D7BE95F14]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>City</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[City]</local-name>
+            <parent-name>[Finance Sheet]</parent-name>
+            <remote-alias>City</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Finance Sheet_5F20D151A31848B58EA1052D7BE95F14]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Brokers</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Brokers]</local-name>
+            <parent-name>[Finance Sheet]</parent-name>
+            <remote-alias>Brokers</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Finance Sheet_5F20D151A31848B58EA1052D7BE95F14]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Premium</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Premium]</local-name>
+            <parent-name>[Finance Sheet]</parent-name>
+            <remote-alias>Premium</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Finance Sheet_5F20D151A31848B58EA1052D7BE95F14]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Date]</local-name>
+            <parent-name>[Finance Sheet]</parent-name>
+            <remote-alias>Date</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <object-id>[Finance Sheet_5F20D151A31848B58EA1052D7BE95F14]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Premium 1</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Premium 1]</local-name>
+            <parent-name>[Finance Sheet]</parent-name>
+            <remote-alias>Premium 1</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Finance Sheet_5F20D151A31848B58EA1052D7BE95F14]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Profitability</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Profitability]</local-name>
+            <parent-name>[Finance Sheet]</parent-name>
+            <remote-alias>Profitability</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Finance Sheet_5F20D151A31848B58EA1052D7BE95F14]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cost ratio</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Cost ratio]</local-name>
+            <parent-name>[Finance Sheet]</parent-name>
+            <remote-alias>Cost ratio</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Finance Sheet_5F20D151A31848B58EA1052D7BE95F14]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Assets under management</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Assets under management]</local-name>
+            <parent-name>[Finance Sheet]</parent-name>
+            <remote-alias>Assets under management</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Finance Sheet_5F20D151A31848B58EA1052D7BE95F14]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Educational qualifications</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Educational qualifications]</local-name>
+            <parent-name>[Finance Sheet]</parent-name>
+            <remote-alias>Educational qualifications</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Finance Sheet_5F20D151A31848B58EA1052D7BE95F14]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>People</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[People]</local-name>
+            <parent-name>[Finance Sheet]</parent-name>
+            <remote-alias>People</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Finance Sheet_5F20D151A31848B58EA1052D7BE95F14]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Policy tenuer</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Policy tenuer]</local-name>
+            <parent-name>[Finance Sheet]</parent-name>
+            <remote-alias>Policy tenuer</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Finance Sheet_5F20D151A31848B58EA1052D7BE95F14]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Gender</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Gender]</local-name>
+            <parent-name>[Finance Sheet]</parent-name>
+            <remote-alias>Gender</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Finance Sheet_5F20D151A31848B58EA1052D7BE95F14]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Age</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Age]</local-name>
+            <parent-name>[Finance Sheet]</parent-name>
+            <remote-alias>Age</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Finance Sheet_5F20D151A31848B58EA1052D7BE95F14]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[Assets under management]' role='dimension' type='nominal' />
+      <column caption='_Zero' datatype='integer' name='[Calculation_0697708143333376]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='0' />
+      </column>
+      <column caption='Equity value' datatype='real' name='[Calculation_0697708179644417]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF [Assets under management]= &quot;Equity&quot; then [Value Created]&#13;&#10;ELSE 0&#13;&#10;END' />
+      </column>
+      <column caption='Highest value' datatype='real' name='[Calculation_0697708181798914]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='MAX([Value Created])' />
+      </column>
+      <column datatype='string' name='[City]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column datatype='string' name='[Cost ratio]' role='dimension' type='nominal' />
+      <column datatype='real' name='[ID]' role='dimension' type='ordinal' />
+      <column datatype='string' name='[Insurer]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Premium 1]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Sahreholding pattern]' role='dimension' type='nominal' />
+      <column caption='Finance Sheet' datatype='table' name='[__tableau_internal_object_id__].[Finance Sheet_5F20D151A31848B58EA1052D7BE95F14]' role='measure' type='quantitative' />
+      <column-instance column='[Assets under management]' derivation='None' name='[none:Assets under management:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Cost ratio]' derivation='None' name='[none:Cost ratio:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Insurer]' derivation='None' name='[none:Insurer:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Premium 1]' derivation='None' name='[none:Premium 1:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Sahreholding pattern]' derivation='None' name='[none:Sahreholding pattern:nk]' pivot='key' type='nominal' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/USER/AppData/Local/Temp/TableauTemp/#TableauTemp_11lgori05msgwa141h4gn1l06h6v.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='11/18/2026 07:00:35 AM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>ID</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[ID]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>ID</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Finance Sheet</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>9999</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Finance Sheet_5F20D151A31848B58EA1052D7BE95F14]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Stakeholder</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Stakeholder]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Stakeholder</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Finance Sheet</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Finance Sheet_5F20D151A31848B58EA1052D7BE95F14]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Insurer</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Insurer]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Insurer</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Finance Sheet</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Finance Sheet_5F20D151A31848B58EA1052D7BE95F14]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Value Created</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Value Created]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Value Created</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Finance Sheet</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>9999</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Finance Sheet_5F20D151A31848B58EA1052D7BE95F14]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Sahreholding pattern</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Sahreholding pattern]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Sahreholding pattern</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Finance Sheet</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Finance Sheet_5F20D151A31848B58EA1052D7BE95F14]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>City</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[City]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>City</remote-alias>
+              <ordinal>5</ordinal>
+              <family>Finance Sheet</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>9</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Finance Sheet_5F20D151A31848B58EA1052D7BE95F14]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Brokers</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Brokers]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Brokers</remote-alias>
+              <ordinal>6</ordinal>
+              <family>Finance Sheet</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Finance Sheet_5F20D151A31848B58EA1052D7BE95F14]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Premium</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Premium]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Premium</remote-alias>
+              <ordinal>7</ordinal>
+              <family>Finance Sheet</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Finance Sheet_5F20D151A31848B58EA1052D7BE95F14]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Date</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[Date]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Date</remote-alias>
+              <ordinal>8</ordinal>
+              <family>Finance Sheet</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>3388</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Finance Sheet_5F20D151A31848B58EA1052D7BE95F14]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Premium 1</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Premium 1]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Premium 1</remote-alias>
+              <ordinal>9</ordinal>
+              <family>Finance Sheet</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Finance Sheet_5F20D151A31848B58EA1052D7BE95F14]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Profitability</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Profitability]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Profitability</remote-alias>
+              <ordinal>10</ordinal>
+              <family>Finance Sheet</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Finance Sheet_5F20D151A31848B58EA1052D7BE95F14]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Cost ratio</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Cost ratio]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Cost ratio</remote-alias>
+              <ordinal>11</ordinal>
+              <family>Finance Sheet</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Finance Sheet_5F20D151A31848B58EA1052D7BE95F14]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Assets under management</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Assets under management]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Assets under management</remote-alias>
+              <ordinal>12</ordinal>
+              <family>Finance Sheet</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Finance Sheet_5F20D151A31848B58EA1052D7BE95F14]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Educational qualifications</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Educational qualifications]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Educational qualifications</remote-alias>
+              <ordinal>13</ordinal>
+              <family>Finance Sheet</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Finance Sheet_5F20D151A31848B58EA1052D7BE95F14]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>People</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[People]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>People</remote-alias>
+              <ordinal>14</ordinal>
+              <family>Finance Sheet</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Finance Sheet_5F20D151A31848B58EA1052D7BE95F14]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Policy tenuer</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Policy tenuer]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Policy tenuer</remote-alias>
+              <ordinal>15</ordinal>
+              <family>Finance Sheet</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Finance Sheet_5F20D151A31848B58EA1052D7BE95F14]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Gender</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Gender]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Gender</remote-alias>
+              <ordinal>16</ordinal>
+              <family>Finance Sheet</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Finance Sheet_5F20D151A31848B58EA1052D7BE95F14]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Age</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Age]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Age</remote-alias>
+              <ordinal>17</ordinal>
+              <family>Finance Sheet</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>45</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Finance Sheet_5F20D151A31848B58EA1052D7BE95F14]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Insurer:nk]' palette='blue_10_0' type='palette'>
+            <map to='#2a5783'>
+              <bucket>&quot;Partner branchaes&quot;</bucket>
+            </map>
+            <map to='#42709e'>
+              <bucket>&quot;Lives cover&quot;</bucket>
+            </map>
+            <map to='#598ab6'>
+              <bucket>&quot;Employee&quot;</bucket>
+            </map>
+            <map to='#75a6cc'>
+              <bucket>&quot;Corporate agent&quot;</bucket>
+            </map>
+            <map to='#94c2e1'>
+              <bucket>&quot;Broker&quot;</bucket>
+            </map>
+            <map to='#b9ddf1'>
+              <bucket>&quot;Bancassurance partners&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Premium 1:nk]' palette='blue_10_0' type='palette'>
+            <map to='#2a5783'>
+              <bucket>&quot;Single premium&quot;</bucket>
+            </map>
+            <map to='#6798c1'>
+              <bucket>&quot;Renewal premium&quot;</bucket>
+            </map>
+            <map to='#b9ddf1'>
+              <bucket>&quot;First year premium&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Sahreholding pattern:nk]' palette='blue_10_0' type='palette'>
+            <map to='#2a5783'>
+              <bucket>&quot;Retail&quot;</bucket>
+            </map>
+            <map to='#5081ae'>
+              <bucket>&quot;Promotors&quot;</bucket>
+            </map>
+            <map to='#7eaed3'>
+              <bucket>&quot;FII&quot;</bucket>
+            </map>
+            <map to='#b9ddf1'>
+              <bucket>&quot;DII&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Cost ratio:nk]' palette='blue_10_0' type='palette'>
+            <map to='#2a5783'>
+              <bucket>&quot;Total cost ratio&quot;</bucket>
+            </map>
+            <map to='#6798c1'>
+              <bucket>&quot;Opex ratio&quot;</bucket>
+            </map>
+            <map to='#b9ddf1'>
+              <bucket>&quot;Commission ratio&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Assets under management:nk]' palette='blue_10_0' type='palette'>
+            <map to='#2a5783'>
+              <bucket>&quot;Equity&quot;</bucket>
+            </map>
+            <map to='#b9ddf1'>
+              <bucket>&quot;Debt&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='Finance Sheet' id='Finance Sheet_5F20D151A31848B58EA1052D7BE95F14'>
+            <properties context=''>
+              <relation connection='excel-direct.1bsedjf1ijhww919xnzs405eh2zw' name='Finance Sheet' table='[&apos;Finance Sheet$&apos;]' type='table'>
+                <columns gridOrigin='A1:R10000:no:A1:R10000:0' header='yes' outcome='6'>
+                  <column datatype='real' name='ID' ordinal='0' />
+                  <column datatype='string' name='Stakeholder' ordinal='1' />
+                  <column datatype='string' name='Insurer' ordinal='2' />
+                  <column datatype='real' name='Value Created' ordinal='3' />
+                  <column datatype='string' name='Sahreholding pattern' ordinal='4' />
+                  <column datatype='string' name='City' ordinal='5' />
+                  <column datatype='string' name='Brokers' ordinal='6' />
+                  <column datatype='string' name='Premium' ordinal='7' />
+                  <column datatype='date' name='Date' ordinal='8' />
+                  <column datatype='string' name='Premium 1' ordinal='9' />
+                  <column datatype='string' name='Profitability' ordinal='10' />
+                  <column datatype='string' name='Cost ratio' ordinal='11' />
+                  <column datatype='string' name='Assets under management' ordinal='12' />
+                  <column datatype='string' name='Educational qualifications' ordinal='13' />
+                  <column datatype='string' name='People' ordinal='14' />
+                  <column datatype='string' name='Policy tenuer' ordinal='15' />
+                  <column datatype='string' name='Gender' ordinal='16' />
+                  <column datatype='real' name='Age' ordinal='17' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <shared-views>
+    <shared-view name='federated.05cjvnv0puyauy192nj4z06se5wq'>
+      <datasources>
+        <datasource caption='Finance Sheet (Finance record)' name='federated.05cjvnv0puyauy192nj4z06se5wq' />
+      </datasources>
+      <datasource-dependencies datasource='federated.05cjvnv0puyauy192nj4z06se5wq'>
+        <column datatype='string' name='[Assets under management]' role='dimension' type='nominal' />
+        <column datatype='string' name='[City]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+        <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+        <column datatype='string' name='[Gender]' role='dimension' type='nominal' />
+        <column datatype='string' name='[Premium 1]' role='dimension' type='nominal' />
+        <column datatype='string' name='[Profitability]' role='dimension' type='nominal' />
+        <column datatype='string' name='[Stakeholder]' role='dimension' type='nominal' />
+        <column-instance column='[Date]' derivation='MY' name='[my:Date:ok]' pivot='key' type='ordinal' />
+        <column-instance column='[Assets under management]' derivation='None' name='[none:Assets under management:nk]' pivot='key' type='nominal' />
+        <column-instance column='[City]' derivation='None' name='[none:City:nk]' pivot='key' type='nominal' />
+        <column-instance column='[Gender]' derivation='None' name='[none:Gender:nk]' pivot='key' type='nominal' />
+        <column-instance column='[Premium 1]' derivation='None' name='[none:Premium 1:nk]' pivot='key' type='nominal' />
+        <column-instance column='[Profitability]' derivation='None' name='[none:Profitability:nk]' pivot='key' type='nominal' />
+        <column-instance column='[Stakeholder]' derivation='None' name='[none:Stakeholder:nk]' pivot='key' type='nominal' />
+      </datasource-dependencies>
+      <filter class='categorical' column='[federated.05cjvnv0puyauy192nj4z06se5wq].[my:Date:ok]'>
+        <groupfilter function='level-members' level='[my:Date:ok]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+      </filter>
+      <filter class='categorical' column='[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Assets under management:nk]'>
+        <groupfilter function='level-members' level='[none:Assets under management:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+      </filter>
+      <filter class='categorical' column='[federated.05cjvnv0puyauy192nj4z06se5wq].[none:City:nk]'>
+        <groupfilter function='level-members' level='[none:City:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+      </filter>
+      <filter class='categorical' column='[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Gender:nk]'>
+        <groupfilter function='level-members' level='[none:Gender:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+      </filter>
+      <filter class='categorical' column='[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Premium 1:nk]'>
+        <groupfilter function='level-members' level='[none:Premium 1:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+      </filter>
+      <filter class='categorical' column='[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Profitability:nk]'>
+        <groupfilter function='level-members' level='[none:Profitability:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+      </filter>
+      <filter class='categorical' column='[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Stakeholder:nk]'>
+        <groupfilter function='level-members' level='[none:Stakeholder:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+      </filter>
+    </shared-view>
+  </shared-views>
+  <worksheets>
+    <worksheet name='Assets under management by Stakeholder'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#ffffff' fontname='Arial' fontsize='10'>Assets under management by Stakeholder</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Finance Sheet (Finance record)' name='federated.05cjvnv0puyauy192nj4z06se5wq' />
+          </datasources>
+          <datasource-dependencies datasource='federated.05cjvnv0puyauy192nj4z06se5wq'>
+            <column datatype='string' name='[Assets under management]' role='dimension' type='nominal' />
+            <column datatype='string' name='[City]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+            <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Gender]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Premium 1]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Profitability]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Stakeholder]' role='dimension' type='nominal' />
+            <column-instance column='[Assets under management]' derivation='Count' name='[cnt:Assets under management:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Date]' derivation='MY' name='[my:Date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Assets under management]' derivation='None' name='[none:Assets under management:nk]' pivot='key' type='nominal' />
+            <column-instance column='[City]' derivation='None' name='[none:City:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Gender]' derivation='None' name='[none:Gender:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Premium 1]' derivation='None' name='[none:Premium 1:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Profitability]' derivation='None' name='[none:Profitability:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Stakeholder]' derivation='None' name='[none:Stakeholder:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Stakeholder:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.05cjvnv0puyauy192nj4z06se5wq].[cnt:Assets under management:qk]' shelf='columns' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Gender:nk]</column>
+            <column>[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Stakeholder:nk]</column>
+            <column>[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Premium 1:nk]</column>
+            <column>[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Profitability:nk]</column>
+            <column>[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Assets under management:nk]</column>
+            <column>[federated.05cjvnv0puyauy192nj4z06se5wq].[none:City:nk]</column>
+            <column>[federated.05cjvnv0puyauy192nj4z06se5wq].[my:Date:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.05cjvnv0puyauy192nj4z06se5wq].[cnt:Assets under management:qk]' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='font-family' field='[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Stakeholder:nk]' value='Arial' />
+            <format attr='font-weight' field='[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Stakeholder:nk]' value='bold' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='title'>
+            <format attr='background-color' value='#0d47a1' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Assets under management:nk]' />
+              <text column='[federated.05cjvnv0puyauy192nj4z06se5wq].[cnt:Assets under management:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontcolor='#f5f5f5' fontname='Arial'><![CDATA[<[federated.05cjvnv0puyauy192nj4z06se5wq].[cnt:Assets under management:qk]>]]></run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.05cjvnv0puyauy192nj4z06se5wq].[cnt:Assets under management:qk]</rows>
+        <cols>[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Stakeholder:nk]</cols>
+      </table>
+      <simple-id uuid='{A0E85F91-9D63-4D72-A7DE-4EA4870E9D5D}' />
+    </worksheet>
+    <worksheet name='Average age of Stakeholders'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#ffffff' fontname='Arial' fontsize='10'>Average Age of Stakeholders</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Finance Sheet (Finance record)' name='federated.05cjvnv0puyauy192nj4z06se5wq' />
+          </datasources>
+          <datasource-dependencies datasource='federated.05cjvnv0puyauy192nj4z06se5wq'>
+            <column datatype='real' name='[Age]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Assets under management]' role='dimension' type='nominal' />
+            <column datatype='string' name='[City]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+            <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Gender]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Premium 1]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Profitability]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Stakeholder]' role='dimension' type='nominal' />
+            <column-instance column='[Age]' derivation='Avg' name='[avg:Age:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Date]' derivation='MY' name='[my:Date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Assets under management]' derivation='None' name='[none:Assets under management:nk]' pivot='key' type='nominal' />
+            <column-instance column='[City]' derivation='None' name='[none:City:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Gender]' derivation='None' name='[none:Gender:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Premium 1]' derivation='None' name='[none:Premium 1:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Profitability]' derivation='None' name='[none:Profitability:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Stakeholder]' derivation='None' name='[none:Stakeholder:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <slices>
+            <column>[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Gender:nk]</column>
+            <column>[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Stakeholder:nk]</column>
+            <column>[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Premium 1:nk]</column>
+            <column>[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Profitability:nk]</column>
+            <column>[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Assets under management:nk]</column>
+            <column>[federated.05cjvnv0puyauy192nj4z06se5wq].[none:City:nk]</column>
+            <column>[federated.05cjvnv0puyauy192nj4z06se5wq].[my:Date:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.05cjvnv0puyauy192nj4z06se5wq].[avg:Age:qk]' value='n#,##0;-#,##0' />
+          </style-rule>
+          <style-rule element='title'>
+            <format attr='background-color' value='#0d47a1' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.05cjvnv0puyauy192nj4z06se5wq].[avg:Age:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontname='Arial' fontsize='18'>&lt;</run>
+                <run bold='true' fontname='Arial' fontsize='18'>[federated.05cjvnv0puyauy192nj4z06se5wq].[avg:Age:qk]</run>
+                <run bold='true' fontname='Arial' fontsize='18'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+                <format attr='vertical-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{951B908A-781A-48CA-AA44-4FF039090BE9}' />
+    </worksheet>
+    <worksheet name='Cost Ratio Vs Profitability'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#ffffff' fontname='Arial' fontsize='10'>Cost Ratio Vs Profitability</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Finance Sheet (Finance record)' name='federated.05cjvnv0puyauy192nj4z06se5wq' />
+          </datasources>
+          <datasource-dependencies datasource='federated.05cjvnv0puyauy192nj4z06se5wq'>
+            <column datatype='string' name='[Assets under management]' role='dimension' type='nominal' />
+            <column datatype='string' name='[City]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+            <column datatype='string' name='[Cost ratio]' role='dimension' type='nominal' />
+            <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Gender]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Premium 1]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Profitability]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Stakeholder]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Value Created]' role='measure' type='quantitative' />
+            <column-instance column='[Date]' derivation='MY' name='[my:Date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Assets under management]' derivation='None' name='[none:Assets under management:nk]' pivot='key' type='nominal' />
+            <column-instance column='[City]' derivation='None' name='[none:City:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Cost ratio]' derivation='None' name='[none:Cost ratio:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Gender]' derivation='None' name='[none:Gender:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Premium 1]' derivation='None' name='[none:Premium 1:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Profitability]' derivation='None' name='[none:Profitability:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Stakeholder]' derivation='None' name='[none:Stakeholder:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Value Created]' derivation='Sum' name='[sum:Value Created:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <slices>
+            <column>[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Gender:nk]</column>
+            <column>[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Stakeholder:nk]</column>
+            <column>[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Premium 1:nk]</column>
+            <column>[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Profitability:nk]</column>
+            <column>[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Assets under management:nk]</column>
+            <column>[federated.05cjvnv0puyauy192nj4z06se5wq].[none:City:nk]</column>
+            <column>[federated.05cjvnv0puyauy192nj4z06se5wq].[my:Date:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.05cjvnv0puyauy192nj4z06se5wq].[sum:Value Created:qk]' scope='rows' value='false' />
+            <format attr='tick-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.05cjvnv0puyauy192nj4z06se5wq].[sum:Value Created:qk]' value='n#,##0,,,.0B;-#,##0,,,.0B' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='border-width' data-class='total' value='0' />
+            <format attr='border-style' data-class='total' value='none' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='font-family' field='[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Cost ratio:nk]' value='Arial' />
+            <format attr='font-weight' field='[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Cost ratio:nk]' value='bold' />
+            <format attr='font-weight' field='[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Profitability:nk]' value='bold' />
+            <format attr='font-size' field='[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Cost ratio:nk]' value='9' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='border-width' data-class='total' value='0' />
+            <format attr='border-style' data-class='total' value='none' />
+          </style-rule>
+          <style-rule element='dropline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='title'>
+            <format attr='background-color' value='#0d47a1' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Cost ratio:nk]' />
+              <text column='[federated.05cjvnv0puyauy192nj4z06se5wq].[sum:Value Created:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontname='Arial'>&lt;</run>
+                <run bold='true' fontname='Arial'>[federated.05cjvnv0puyauy192nj4z06se5wq].[sum:Value Created:qk]</run>
+                <run bold='true' fontname='Arial'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='trendline'>
+                <format attr='stroke-size' value='0' />
+                <format attr='line-visibility' value='off' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.05cjvnv0puyauy192nj4z06se5wq].[sum:Value Created:qk]</rows>
+        <cols>([federated.05cjvnv0puyauy192nj4z06se5wq].[none:Profitability:nk] / [federated.05cjvnv0puyauy192nj4z06se5wq].[none:Cost ratio:nk])</cols>
+      </table>
+      <simple-id uuid='{A2DC27EA-ACDB-4372-A879-B701BA910391}' />
+    </worksheet>
+    <worksheet name='Equity Value Created'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#ffffff' fontname='Arial' fontsize='10'>Equity Value Created</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Finance Sheet (Finance record)' name='federated.05cjvnv0puyauy192nj4z06se5wq' />
+          </datasources>
+          <datasource-dependencies datasource='federated.05cjvnv0puyauy192nj4z06se5wq'>
+            <column datatype='string' name='[Assets under management]' role='dimension' type='nominal' />
+            <column caption='Equity value' datatype='real' name='[Calculation_0697708179644417]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF [Assets under management]= &quot;Equity&quot; then [Value Created]&#13;&#10;ELSE 0&#13;&#10;END' />
+            </column>
+            <column datatype='string' name='[City]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+            <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Gender]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Premium 1]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Profitability]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Stakeholder]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Value Created]' role='measure' type='quantitative' />
+            <column-instance column='[Date]' derivation='MY' name='[my:Date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Assets under management]' derivation='None' name='[none:Assets under management:nk]' pivot='key' type='nominal' />
+            <column-instance column='[City]' derivation='None' name='[none:City:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Gender]' derivation='None' name='[none:Gender:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Premium 1]' derivation='None' name='[none:Premium 1:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Profitability]' derivation='None' name='[none:Profitability:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Stakeholder]' derivation='None' name='[none:Stakeholder:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_0697708179644417]' derivation='Sum' name='[sum:Calculation_0697708179644417:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <slices>
+            <column>[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Gender:nk]</column>
+            <column>[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Stakeholder:nk]</column>
+            <column>[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Premium 1:nk]</column>
+            <column>[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Profitability:nk]</column>
+            <column>[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Assets under management:nk]</column>
+            <column>[federated.05cjvnv0puyauy192nj4z06se5wq].[none:City:nk]</column>
+            <column>[federated.05cjvnv0puyauy192nj4z06se5wq].[my:Date:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.05cjvnv0puyauy192nj4z06se5wq].[sum:Calculation_0697708179644417:qk]' value='n#,##0,,,.00B;-#,##0,,,.00B' />
+          </style-rule>
+          <style-rule element='title'>
+            <format attr='background-color' value='#0d47a1' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.05cjvnv0puyauy192nj4z06se5wq].[sum:Calculation_0697708179644417:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontname='Arial' fontsize='18'>&lt;</run>
+                <run bold='true' fontname='Arial' fontsize='18'>[federated.05cjvnv0puyauy192nj4z06se5wq].[sum:Calculation_0697708179644417:qk]</run>
+                <run bold='true' fontname='Arial' fontsize='18'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+                <format attr='vertical-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{134BD7D3-8C12-4AB2-B2C8-10CE040A25C0}' />
+    </worksheet>
+    <worksheet name='Filter'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#ffffff' fontname='Arial' fontsize='12'>Filters</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Finance Sheet (Finance record)' name='federated.05cjvnv0puyauy192nj4z06se5wq' />
+          </datasources>
+          <datasource-dependencies datasource='federated.05cjvnv0puyauy192nj4z06se5wq'>
+            <column datatype='string' name='[Assets under management]' role='dimension' type='nominal' />
+            <column datatype='string' name='[City]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+            <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Gender]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Premium 1]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Profitability]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Stakeholder]' role='dimension' type='nominal' />
+            <column-instance column='[Date]' derivation='MY' name='[my:Date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Assets under management]' derivation='None' name='[none:Assets under management:nk]' pivot='key' type='nominal' />
+            <column-instance column='[City]' derivation='None' name='[none:City:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Gender]' derivation='None' name='[none:Gender:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Premium 1]' derivation='None' name='[none:Premium 1:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Profitability]' derivation='None' name='[none:Profitability:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Stakeholder]' derivation='None' name='[none:Stakeholder:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <slices>
+            <column>[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Assets under management:nk]</column>
+            <column>[federated.05cjvnv0puyauy192nj4z06se5wq].[none:City:nk]</column>
+            <column>[federated.05cjvnv0puyauy192nj4z06se5wq].[my:Date:ok]</column>
+            <column>[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Gender:nk]</column>
+            <column>[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Stakeholder:nk]</column>
+            <column>[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Premium 1:nk]</column>
+            <column>[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Profitability:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='title'>
+            <format attr='background-color' value='#0d47a1' />
+          </style-rule>
+          <style-rule element='quick-filter'>
+            <format attr='title' field='[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Premium 1:nk]' value='Premium'>
+              <formatted-text>
+                <run bold='true' fontalignment='1' fontname='Arial'>Premium</run>
+              </formatted-text>
+            </format>
+            <format attr='title' field='[federated.05cjvnv0puyauy192nj4z06se5wq].[my:Date:ok]' value='Date'>
+              <formatted-text>
+                <run bold='true' fontalignment='1' fontname='Arial'>Date</run>
+              </formatted-text>
+            </format>
+            <format attr='title' field='[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Profitability:nk]' value='Profitability'>
+              <formatted-text>
+                <run bold='true' fontalignment='1' fontname='Arial'>Profitability</run>
+              </formatted-text>
+            </format>
+            <format attr='title' field='[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Stakeholder:nk]' value='Stakeholder'>
+              <formatted-text>
+                <run bold='true' fontalignment='1' fontname='Arial'>Stakeholder</run>
+              </formatted-text>
+            </format>
+            <format attr='title' field='[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Gender:nk]' value='Gender'>
+              <formatted-text>
+                <run bold='true' fontalignment='1' fontname='Arial'>Gender</run>
+              </formatted-text>
+            </format>
+            <format attr='title' field='[federated.05cjvnv0puyauy192nj4z06se5wq].[none:City:nk]' value='City'>
+              <formatted-text>
+                <run bold='true' fontalignment='1' fontname='Arial'>City</run>
+              </formatted-text>
+            </format>
+            <format attr='title' field='[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Assets under management:nk]' value='Assets under management'>
+              <formatted-text>
+                <run bold='true' fontalignment='1' fontname='Arial'>Assets under management</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{12D17239-8FF6-4159-9CCD-5240DC4765CB}' />
+    </worksheet>
+    <worksheet name='Highest Value Created by Insurer'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#ffffff' fontname='Arial' fontsize='10'>Highest Value Created by Insurer</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Finance Sheet (Finance record)' name='federated.05cjvnv0puyauy192nj4z06se5wq' />
+          </datasources>
+          <datasource-dependencies datasource='federated.05cjvnv0puyauy192nj4z06se5wq'>
+            <column datatype='string' name='[Assets under management]' role='dimension' type='nominal' />
+            <column caption='Highest value' datatype='real' name='[Calculation_0697708181798914]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='MAX([Value Created])' />
+            </column>
+            <column datatype='string' name='[City]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+            <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Gender]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Premium 1]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Profitability]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Stakeholder]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Value Created]' role='measure' type='quantitative' />
+            <column-instance column='[Date]' derivation='MY' name='[my:Date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Assets under management]' derivation='None' name='[none:Assets under management:nk]' pivot='key' type='nominal' />
+            <column-instance column='[City]' derivation='None' name='[none:City:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Gender]' derivation='None' name='[none:Gender:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Premium 1]' derivation='None' name='[none:Premium 1:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Profitability]' derivation='None' name='[none:Profitability:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Stakeholder]' derivation='None' name='[none:Stakeholder:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_0697708181798914]' derivation='User' name='[usr:Calculation_0697708181798914:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <slices>
+            <column>[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Gender:nk]</column>
+            <column>[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Stakeholder:nk]</column>
+            <column>[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Premium 1:nk]</column>
+            <column>[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Profitability:nk]</column>
+            <column>[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Assets under management:nk]</column>
+            <column>[federated.05cjvnv0puyauy192nj4z06se5wq].[none:City:nk]</column>
+            <column>[federated.05cjvnv0puyauy192nj4z06se5wq].[my:Date:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.05cjvnv0puyauy192nj4z06se5wq].[usr:Calculation_0697708181798914:qk]' value='n#,##0,,.00M;-#,##0,,.00M' />
+          </style-rule>
+          <style-rule element='title'>
+            <format attr='background-color' value='#0d47a1' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.05cjvnv0puyauy192nj4z06se5wq].[usr:Calculation_0697708181798914:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontname='Arial' fontsize='18'>&lt;</run>
+                <run bold='true' fontname='Arial' fontsize='18'>[federated.05cjvnv0puyauy192nj4z06se5wq].[usr:Calculation_0697708181798914:qk]</run>
+                <run bold='true' fontname='Arial' fontsize='18'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+                <format attr='vertical-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{C099A1BB-E5A1-46EF-8A06-2D913BDA8E39}' />
+    </worksheet>
+    <worksheet name='Premiums Over Time'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#ffffff' fontname='Arial' fontsize='10'>Premiums Over Time</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Finance Sheet (Finance record)' name='federated.05cjvnv0puyauy192nj4z06se5wq' />
+          </datasources>
+          <datasource-dependencies datasource='federated.05cjvnv0puyauy192nj4z06se5wq'>
+            <column datatype='string' name='[Assets under management]' role='dimension' type='nominal' />
+            <column datatype='string' name='[City]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+            <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Gender]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Premium 1]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Profitability]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Stakeholder]' role='dimension' type='nominal' />
+            <column-instance column='[Premium 1]' derivation='Count' name='[cnt:Premium 1:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Date]' derivation='MY' name='[my:Date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Assets under management]' derivation='None' name='[none:Assets under management:nk]' pivot='key' type='nominal' />
+            <column-instance column='[City]' derivation='None' name='[none:City:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Gender]' derivation='None' name='[none:Gender:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Premium 1]' derivation='None' name='[none:Premium 1:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Profitability]' derivation='None' name='[none:Profitability:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Stakeholder]' derivation='None' name='[none:Stakeholder:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Date]' derivation='Year' name='[yr:Date:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.05cjvnv0puyauy192nj4z06se5wq].[yr:Date:ok]' direction='ASC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.05cjvnv0puyauy192nj4z06se5wq].[cnt:Premium 1:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Gender:nk]</column>
+            <column>[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Stakeholder:nk]</column>
+            <column>[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Premium 1:nk]</column>
+            <column>[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Profitability:nk]</column>
+            <column>[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Assets under management:nk]</column>
+            <column>[federated.05cjvnv0puyauy192nj4z06se5wq].[none:City:nk]</column>
+            <column>[federated.05cjvnv0puyauy192nj4z06se5wq].[my:Date:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.05cjvnv0puyauy192nj4z06se5wq].[cnt:Premium 1:qk]' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='font-weight' field='[federated.05cjvnv0puyauy192nj4z06se5wq].[yr:Date:ok]' value='bold' />
+            <format attr='font-family' field='[federated.05cjvnv0puyauy192nj4z06se5wq].[yr:Date:ok]' value='Arial' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='title'>
+            <format attr='background-color' value='#0d47a1' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Premium 1:nk]' />
+              <text column='[federated.05cjvnv0puyauy192nj4z06se5wq].[cnt:Premium 1:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.05cjvnv0puyauy192nj4z06se5wq].[yr:Date:ok]</rows>
+        <cols>[federated.05cjvnv0puyauy192nj4z06se5wq].[cnt:Premium 1:qk]</cols>
+      </table>
+      <simple-id uuid='{25360607-0564-4E6C-A3C9-AD98B035E17E}' />
+    </worksheet>
+    <worksheet name='Profitability by City and Tenure'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#ffffff' fontname='Arial' fontsize='10'>Profitability by City and Tenure</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Finance Sheet (Finance record)' name='federated.05cjvnv0puyauy192nj4z06se5wq' />
+          </datasources>
+          <datasource-dependencies datasource='federated.05cjvnv0puyauy192nj4z06se5wq'>
+            <column datatype='string' name='[Assets under management]' role='dimension' type='nominal' />
+            <column datatype='string' name='[City]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+            <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Gender]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Policy tenuer]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Premium 1]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Profitability]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Stakeholder]' role='dimension' type='nominal' />
+            <column-instance column='[Profitability]' derivation='Count' name='[cnt:Profitability:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Date]' derivation='MY' name='[my:Date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Assets under management]' derivation='None' name='[none:Assets under management:nk]' pivot='key' type='nominal' />
+            <column-instance column='[City]' derivation='None' name='[none:City:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Gender]' derivation='None' name='[none:Gender:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Policy tenuer]' derivation='None' name='[none:Policy tenuer:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Premium 1]' derivation='None' name='[none:Premium 1:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Profitability]' derivation='None' name='[none:Profitability:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Stakeholder]' derivation='None' name='[none:Stakeholder:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <slices>
+            <column>[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Gender:nk]</column>
+            <column>[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Stakeholder:nk]</column>
+            <column>[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Premium 1:nk]</column>
+            <column>[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Profitability:nk]</column>
+            <column>[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Assets under management:nk]</column>
+            <column>[federated.05cjvnv0puyauy192nj4z06se5wq].[none:City:nk]</column>
+            <column>[federated.05cjvnv0puyauy192nj4z06se5wq].[my:Date:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.05cjvnv0puyauy192nj4z06se5wq].[cnt:Profitability:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+            <encoding attr='color' field='[federated.05cjvnv0puyauy192nj4z06se5wq].[cnt:Profitability:qk]' palette='blue_10_0' type='interpolated' />
+          </style-rule>
+          <style-rule element='title'>
+            <format attr='background-color' value='#0d47a1' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Square' />
+            <encodings>
+              <color column='[federated.05cjvnv0puyauy192nj4z06se5wq].[cnt:Profitability:qk]' />
+              <text column='[federated.05cjvnv0puyauy192nj4z06se5wq].[cnt:Profitability:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+                <format attr='has-stroke' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.05cjvnv0puyauy192nj4z06se5wq].[none:City:nk]</rows>
+        <cols>[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Policy tenuer:nk]</cols>
+      </table>
+      <simple-id uuid='{0A94E004-AA30-45D8-9327-22BDA195B0F5}' />
+    </worksheet>
+    <worksheet name='ShareHolding Distribution'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#ffffff' fontname='Arial' fontsize='10'>ShareHolding Distribution</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Finance Sheet (Finance record)' name='federated.05cjvnv0puyauy192nj4z06se5wq' />
+          </datasources>
+          <datasource-dependencies datasource='federated.05cjvnv0puyauy192nj4z06se5wq'>
+            <column datatype='string' name='[Assets under management]' role='dimension' type='nominal' />
+            <column caption='_Zero' datatype='integer' name='[Calculation_0697708143333376]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='0' />
+            </column>
+            <column datatype='string' name='[City]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+            <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Gender]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Premium 1]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Profitability]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Sahreholding pattern]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Stakeholder]' role='dimension' type='nominal' />
+            <column-instance column='[Stakeholder]' derivation='Count' name='[cnt:Stakeholder:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Date]' derivation='MY' name='[my:Date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Assets under management]' derivation='None' name='[none:Assets under management:nk]' pivot='key' type='nominal' />
+            <column-instance column='[City]' derivation='None' name='[none:City:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Gender]' derivation='None' name='[none:Gender:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Premium 1]' derivation='None' name='[none:Premium 1:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Profitability]' derivation='None' name='[none:Profitability:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Sahreholding pattern]' derivation='None' name='[none:Sahreholding pattern:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Stakeholder]' derivation='None' name='[none:Stakeholder:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Stakeholder]' derivation='Count' name='[pcto:cnt:Stakeholder:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+            <column-instance column='[Calculation_0697708143333376]' derivation='Sum' name='[sum:Calculation_0697708143333376:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <slices>
+            <column>[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Gender:nk]</column>
+            <column>[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Stakeholder:nk]</column>
+            <column>[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Premium 1:nk]</column>
+            <column>[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Profitability:nk]</column>
+            <column>[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Assets under management:nk]</column>
+            <column>[federated.05cjvnv0puyauy192nj4z06se5wq].[none:City:nk]</column>
+            <column>[federated.05cjvnv0puyauy192nj4z06se5wq].[my:Date:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='1' field='[federated.05cjvnv0puyauy192nj4z06se5wq].[sum:Calculation_0697708143333376:qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
+            <format attr='display' class='0' field='[federated.05cjvnv0puyauy192nj4z06se5wq].[sum:Calculation_0697708143333376:qk]' scope='rows' value='false' />
+            <format attr='display' class='1' field='[federated.05cjvnv0puyauy192nj4z06se5wq].[sum:Calculation_0697708143333376:qk]' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.05cjvnv0puyauy192nj4z06se5wq].[pcto:cnt:Stakeholder:qk]' value='p0.0%' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='border-width' data-class='total' value='0' />
+            <format attr='border-style' data-class='total' value='none' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='border-width' data-class='total' value='0' />
+            <format attr='border-style' data-class='total' value='none' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='title'>
+            <format attr='background-color' value='#0d47a1' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.05cjvnv0puyauy192nj4z06se5wq].[sum:Calculation_0697708143333376:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Sahreholding pattern:nk]' />
+              <wedge-size column='[federated.05cjvnv0puyauy192nj4z06se5wq].[cnt:Stakeholder:qk]' />
+              <text column='[federated.05cjvnv0puyauy192nj4z06se5wq].[pcto:cnt:Stakeholder:qk]' />
+              <text column='[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Sahreholding pattern:nk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontname='Arial'>&lt;</run>
+                <run bold='true' fontname='Arial'>[federated.05cjvnv0puyauy192nj4z06se5wq].[pcto:cnt:Stakeholder:qk]</run>
+                <run bold='true' fontname='Arial'>&gt;</run>
+                <run bold='true' fontname='Arial'>Æ&#10;</run>
+                <run bold='true' fontname='Arial'><![CDATA[<[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Sahreholding pattern:nk]>]]></run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='size' value='1.1314364671707153' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.05cjvnv0puyauy192nj4z06se5wq].[sum:Calculation_0697708143333376:qk]' y-index='1'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='size' value='0.66966849565505981' />
+                <format attr='mark-color' value='#ffffff' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.05cjvnv0puyauy192nj4z06se5wq].[sum:Calculation_0697708143333376:qk] + [federated.05cjvnv0puyauy192nj4z06se5wq].[sum:Calculation_0697708143333376:qk])</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{8C0DB50B-26AF-4C64-82D4-740A52E03025}' />
+    </worksheet>
+    <worksheet name='Total Premium'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#ffffff' fontname='Arial' fontsize='10'>Total Premium</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Finance Sheet (Finance record)' name='federated.05cjvnv0puyauy192nj4z06se5wq' />
+          </datasources>
+          <datasource-dependencies datasource='federated.05cjvnv0puyauy192nj4z06se5wq'>
+            <column datatype='string' name='[Assets under management]' role='dimension' type='nominal' />
+            <column datatype='string' name='[City]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+            <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Gender]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Premium 1]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Profitability]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Stakeholder]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Value Created]' role='measure' type='quantitative' />
+            <column-instance column='[Date]' derivation='MY' name='[my:Date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Assets under management]' derivation='None' name='[none:Assets under management:nk]' pivot='key' type='nominal' />
+            <column-instance column='[City]' derivation='None' name='[none:City:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Gender]' derivation='None' name='[none:Gender:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Premium 1]' derivation='None' name='[none:Premium 1:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Profitability]' derivation='None' name='[none:Profitability:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Stakeholder]' derivation='None' name='[none:Stakeholder:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Value Created]' derivation='Sum' name='[sum:Value Created:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <slices>
+            <column>[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Gender:nk]</column>
+            <column>[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Stakeholder:nk]</column>
+            <column>[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Premium 1:nk]</column>
+            <column>[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Profitability:nk]</column>
+            <column>[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Assets under management:nk]</column>
+            <column>[federated.05cjvnv0puyauy192nj4z06se5wq].[none:City:nk]</column>
+            <column>[federated.05cjvnv0puyauy192nj4z06se5wq].[my:Date:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.05cjvnv0puyauy192nj4z06se5wq].[sum:Value Created:qk]' value='n#,##0,,,.0B;-#,##0,,,.0B' />
+          </style-rule>
+          <style-rule element='title'>
+            <format attr='background-color' value='#0d47a1' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.05cjvnv0puyauy192nj4z06se5wq].[sum:Value Created:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontname='Arial' fontsize='18'>&lt;</run>
+                <run bold='true' fontname='Arial' fontsize='18'>[federated.05cjvnv0puyauy192nj4z06se5wq].[sum:Value Created:qk]</run>
+                <run bold='true' fontname='Arial' fontsize='18'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+                <format attr='vertical-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{3815750C-6644-4967-959C-087E1D2DE25D}' />
+    </worksheet>
+    <worksheet name='Value created by Insurer'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#ffffff' fontname='Arial' fontsize='10'> Value Created  by Insurers</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Finance Sheet (Finance record)' name='federated.05cjvnv0puyauy192nj4z06se5wq' />
+          </datasources>
+          <datasource-dependencies datasource='federated.05cjvnv0puyauy192nj4z06se5wq'>
+            <column datatype='string' name='[Assets under management]' role='dimension' type='nominal' />
+            <column datatype='string' name='[City]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+            <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Gender]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Insurer]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Premium 1]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Profitability]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Stakeholder]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Value Created]' role='measure' type='quantitative' />
+            <column-instance column='[Date]' derivation='MY' name='[my:Date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Assets under management]' derivation='None' name='[none:Assets under management:nk]' pivot='key' type='nominal' />
+            <column-instance column='[City]' derivation='None' name='[none:City:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Gender]' derivation='None' name='[none:Gender:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Insurer]' derivation='None' name='[none:Insurer:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Premium 1]' derivation='None' name='[none:Premium 1:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Profitability]' derivation='None' name='[none:Profitability:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Stakeholder]' derivation='None' name='[none:Stakeholder:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Value Created]' derivation='Sum' name='[sum:Value Created:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Insurer:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.05cjvnv0puyauy192nj4z06se5wq].[sum:Value Created:qk]' shelf='columns' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Gender:nk]</column>
+            <column>[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Stakeholder:nk]</column>
+            <column>[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Premium 1:nk]</column>
+            <column>[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Profitability:nk]</column>
+            <column>[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Assets under management:nk]</column>
+            <column>[federated.05cjvnv0puyauy192nj4z06se5wq].[none:City:nk]</column>
+            <column>[federated.05cjvnv0puyauy192nj4z06se5wq].[my:Date:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.05cjvnv0puyauy192nj4z06se5wq].[sum:Value Created:qk]' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.05cjvnv0puyauy192nj4z06se5wq].[sum:Value Created:qk]' value='n#,##0,,,.00B;-#,##0,,,.00B' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='border-width' data-class='total' scope='rows' value='0' />
+            <format attr='border-style' data-class='total' scope='rows' value='none' />
+            <format attr='border-width' data-class='total' scope='cols' value='0' />
+            <format attr='border-style' data-class='total' scope='cols' value='none' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='font-family' field='[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Insurer:nk]' value='Tableau Semibold' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='border-width' data-class='total' scope='rows' value='0' />
+            <format attr='border-style' data-class='total' scope='rows' value='none' />
+            <format attr='border-width' data-class='total' scope='cols' value='0' />
+            <format attr='border-style' data-class='total' scope='cols' value='none' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='caption'>
+            <format attr='background-color' value='#f7f1f6' />
+            <format attr='border-style' value='dotted' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='title'>
+            <format attr='border-width' value='1' />
+            <format attr='border-style' value='dotted' />
+            <format attr='border-color' value='#a0cbe8' />
+            <format attr='background-color' value='#0d47a1' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Insurer:nk]' />
+              <text column='[federated.05cjvnv0puyauy192nj4z06se5wq].[sum:Value Created:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.05cjvnv0puyauy192nj4z06se5wq].[sum:Value Created:qk]</rows>
+        <cols>[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Insurer:nk]</cols>
+      </table>
+      <simple-id uuid='{AD06D07C-936B-4EC8-BD15-408EF4E8B912}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <style>
+        <style-rule element='dash-text'>
+          <format attr='text-align' id='dash-text_50' value='center' />
+          <format attr='vertical-align' id='dash-text_50' value='center' />
+          <format attr='text-align' id='dash-text_51' value='center' />
+          <format attr='vertical-align' id='dash-text_51' value='center' />
+        </style-rule>
+      </style>
+      <size sizing-mode='automatic' />
+      <datasources>
+        <datasource caption='Finance Sheet (Finance record)' name='federated.05cjvnv0puyauy192nj4z06se5wq' />
+      </datasources>
+      <datasource-dependencies datasource='federated.05cjvnv0puyauy192nj4z06se5wq'>
+        <column datatype='string' name='[Assets under management]' role='dimension' type='nominal' />
+        <column datatype='string' name='[City]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+        <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+        <column datatype='string' name='[Gender]' role='dimension' type='nominal' />
+        <column datatype='string' name='[Premium 1]' role='dimension' type='nominal' />
+        <column datatype='string' name='[Profitability]' role='dimension' type='nominal' />
+        <column datatype='string' name='[Stakeholder]' role='dimension' type='nominal' />
+        <column-instance column='[Date]' derivation='MY' name='[my:Date:ok]' pivot='key' type='ordinal' />
+        <column-instance column='[Assets under management]' derivation='None' name='[none:Assets under management:nk]' pivot='key' type='nominal' />
+        <column-instance column='[City]' derivation='None' name='[none:City:nk]' pivot='key' type='nominal' />
+        <column-instance column='[Gender]' derivation='None' name='[none:Gender:nk]' pivot='key' type='nominal' />
+        <column-instance column='[Premium 1]' derivation='None' name='[none:Premium 1:nk]' pivot='key' type='nominal' />
+        <column-instance column='[Profitability]' derivation='None' name='[none:Profitability:nk]' pivot='key' type='nominal' />
+        <column-instance column='[Stakeholder]' derivation='None' name='[none:Stakeholder:nk]' pivot='key' type='nominal' />
+      </datasource-dependencies>
+      <zones>
+        <zone h='84785' id='37' layout-strategy-id='distribute-evenly' param='vert' type-v2='layout-flow' w='7697' x='118' y='13124'>
+          <zone h='10570' id='38' name='Filter' w='7578' x='178' y='13240'>
+            <layout-cache type-h='fixed' type-w='fixed' />
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='10569' id='44' mode='checkdropdown' name='Filter' param='[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Gender:nk]' type-v2='filter' w='7578' x='178' y='23810'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='1' />
+            </zone-style>
+          </zone>
+          <zone h='10569' id='43' mode='checkdropdown' name='Filter' param='[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Stakeholder:nk]' type-v2='filter' w='7578' x='178' y='34379'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='0' />
+            </zone-style>
+          </zone>
+          <zone h='10569' id='42' mode='checkdropdown' name='Filter' param='[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Premium 1:nk]' type-v2='filter' w='7578' x='178' y='44948'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='0' />
+            </zone-style>
+          </zone>
+          <zone h='10569' id='41' mode='checkdropdown' name='Filter' param='[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Profitability:nk]' type-v2='filter' w='7578' x='178' y='55517'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='0' />
+            </zone-style>
+          </zone>
+          <zone h='10569' id='47' mode='checkdropdown' name='Filter' param='[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Assets under management:nk]' type-v2='filter' w='7578' x='178' y='66086'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='10569' id='46' mode='checkdropdown' name='Filter' param='[federated.05cjvnv0puyauy192nj4z06se5wq].[none:City:nk]' type-v2='filter' w='7578' x='178' y='76655'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='10569' id='45' mode='checkdropdown' name='Filter' param='[federated.05cjvnv0puyauy192nj4z06se5wq].[my:Date:ok]' type-v2='filter' w='7578' x='178' y='87224'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#0d47a1' />
+            <format attr='border-style' value='solid' />
+            <format attr='border-width' value='1' />
+          </zone-style>
+        </zone>
+        <zone h='85482' id='49' param='vert' type-v2='layout-flow' w='87863' x='7815' y='12660'>
+          <zone fixed-size='87' h='10105' id='3' is-fixed='true' layout-strategy-id='distribute-evenly' param='horz' type-v2='layout-flow' w='87745' x='7874' y='12776'>
+            <zone h='10104' id='4' name='Total Premium' w='21966' x='7874' y='12776'>
+              <layout-cache cell-count-h='1' cell-count-w='1' non-cell-size-h='34' type-h='cell' type-w='cell' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone h='10104' id='5' name='Average age of Stakeholders' w='21966' x='29840' y='12776'>
+              <layout-cache cell-count-h='1' cell-count-w='1' non-cell-size-h='34' type-h='cell' type-w='cell' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone h='10104' id='6' name='Equity Value Created' w='21906' x='51806' y='12776'>
+              <layout-cache cell-count-h='1' cell-count-w='1' non-cell-size-h='34' type-h='cell' type-w='cell' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone h='10104' id='7' name='Highest Value Created by Insurer' w='21907' x='73712' y='12776'>
+              <layout-cache cell-count-h='1' cell-count-w='1' non-cell-size-h='34' type-h='cell' type-w='cell' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='0' />
+            </zone-style>
+          </zone>
+          <zone h='75145' id='48' layout-strategy-id='distribute-evenly' param='vert' type-v2='layout-flow' w='87745' x='7874' y='22881'>
+            <zone fixed-size='83' h='25087' id='8' is-fixed='true' layout-strategy-id='distribute-evenly' param='horz' type-v2='layout-flow' w='87745' x='7874' y='22880'>
+              <zone h='24158' id='9' name='Value created by Insurer' w='43636' x='8111' y='23345'>
+                <layout-cache cell-count-w='6' minheight='182' type-h='scalable' type-w='cell' />
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='0' />
+                </zone-style>
+              </zone>
+              <zone h='24158' id='10' name='Premiums Over Time' w='43635' x='51747' y='23345'>
+                <layout-cache cell-count-h='11' minwidth='180' non-cell-size-h='58' type-h='cell' type-w='scalable' />
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='0' />
+                </zone-style>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone h='25088' id='19' layout-strategy-id='distribute-evenly' param='horz' type-v2='layout-flow' w='87745' x='7874' y='47967'>
+              <zone h='24158' id='20' name='Cost Ratio Vs Profitability' w='43636' x='8111' y='48432'>
+                <layout-cache cell-count-w='5' minheight='195' type-h='scalable' type-w='cell' />
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='0' />
+                </zone-style>
+              </zone>
+              <zone h='24158' id='26' name='Assets under management by Stakeholder' w='43635' x='51747' y='48432'>
+                <layout-cache cell-count-w='7' minheight='155' type-h='scalable' type-w='cell' />
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='0' />
+                </zone-style>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone h='24971' id='11' layout-strategy-id='distribute-evenly' param='horz' type-v2='layout-flow' w='87745' x='7874' y='73055'>
+              <zone h='24042' id='12' name='ShareHolding Distribution' w='43636' x='8111' y='73519'>
+                <layout-cache cell-count-w='1' minheight='134' type-h='scalable' type-w='cell' />
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='0' />
+                </zone-style>
+              </zone>
+              <zone h='24042' id='18' name='Profitability by City and Tenure' w='43635' x='51747' y='73519'>
+                <layout-cache cell-count-h='9' cell-count-w='4' non-cell-size-h='74' non-cell-size-w='101' type-h='cell' type-w='cell' />
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='0' />
+                </zone-style>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='0' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#0d47a1' />
+            <format attr='border-style' value='solid' />
+            <format attr='border-width' value='1' />
+          </zone-style>
+        </zone>
+        <zone h='11614' id='50' param='horz' type-v2='layout-flow' w='95441' x='178' y='1278'>
+          <zone fixed-size='91' h='11614' id='57' is-fixed='true' is-scaled='1' param='C:/Users/USER/Downloads/bank.jpg' type-v2='bitmap' w='5506' x='178' y='1278'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='1' />
+              <format attr='background-color' value='#0d47a1' />
+            </zone-style>
+          </zone>
+          <zone forceUpdate='true' h='11614' id='51' type-v2='text' w='80225' x='5684' y='1278'>
+            <formatted-text>
+              <run bold='true' fontcolor='#ffffff' fontname='Arial' fontsize='22'>Stakeholder Insights and Performance Dashboard</run>
+            </formatted-text>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='1' />
+              <format attr='background-color' value='#0d47a1' />
+            </zone-style>
+          </zone>
+          <zone h='11614' id='52' type-v2='dashboard-object' w='9710' x='85909' y='1278'>
+            <button action='' button-click-action-metadata='pdf' button-type='text'>
+              <export-button-action>tabdoc:abstract-dashboard-button-export-wrapper dashboard-button-export-type=&quot;pdf&quot; dashboarddoc-id=&quot;{6F7C3CA1-F47B-49EC-8596-2214FD60AED2}&quot;</export-button-action>
+              <button-visual-state>
+                <button-caption-font-style fontcolor='#ffffff' fontname='Tableau Bold' fontsize='12' />
+                <format attr='background-color' value='#0d47a1' />
+              </button-visual-state>
+            </button>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='1' />
+            </zone-style>
+          </zone>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='2300' minheight='2300' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='65' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98142' id='64' param='vert' type-v2='layout-flow' w='99052' x='474' y='929'>
+                <zone fixed-size='91' h='11614' id='57' is-fixed='true' is-scaled='1' param='C:/Users/USER/Downloads/bank.jpg' type-v2='bitmap' w='5506' x='178' y='1278'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#0d47a1' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='11614' id='51' type-v2='text' w='80225' x='5684' y='1278'>
+                  <formatted-text>
+                    <run bold='true' fontcolor='#ffffff' fontname='Arial' fontsize='22'>Stakeholder Insights and Performance Dashboard</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#0d47a1' />
+                  </zone-style>
+                </zone>
+                <zone h='11614' id='52' type-v2='dashboard-object' w='9710' x='85909' y='1278'>
+                  <button action='' button-click-action-metadata='pdf' button-type='text'>
+                    <export-button-action>tabdoc:abstract-dashboard-button-export-wrapper dashboard-button-export-type=&quot;pdf&quot; dashboarddoc-id=&quot;{6F7C3CA1-F47B-49EC-8596-2214FD60AED2}&quot;</export-button-action>
+                    <button-visual-state>
+                      <button-caption-font-style fontcolor='#ffffff' fontname='Tableau Bold' fontsize='12' />
+                      <format attr='background-color' value='#0d47a1' />
+                    </button-visual-state>
+                  </button>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='73' h='10104' id='4' is-fixed='true' name='Total Premium' w='21966' x='7874' y='12776'>
+                  <layout-cache cell-count-h='1' cell-count-w='1' non-cell-size-h='34' type-h='cell' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='73' h='10104' id='5' is-fixed='true' name='Average age of Stakeholders' w='21966' x='29840' y='12776'>
+                  <layout-cache cell-count-h='1' cell-count-w='1' non-cell-size-h='34' type-h='cell' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='73' h='10104' id='6' is-fixed='true' name='Equity Value Created' w='21906' x='51806' y='12776'>
+                  <layout-cache cell-count-h='1' cell-count-w='1' non-cell-size-h='34' type-h='cell' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='73' h='10104' id='7' is-fixed='true' name='Highest Value Created by Insurer' w='21907' x='73712' y='12776'>
+                  <layout-cache cell-count-h='1' cell-count-w='1' non-cell-size-h='34' type-h='cell' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='10569' id='44' mode='checkdropdown' name='Filter' param='[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Gender:nk]' type-v2='filter' w='7578' x='178' y='23810'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='10569' id='43' mode='checkdropdown' name='Filter' param='[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Stakeholder:nk]' type-v2='filter' w='7578' x='178' y='34379'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='10569' id='42' mode='checkdropdown' name='Filter' param='[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Premium 1:nk]' type-v2='filter' w='7578' x='178' y='44948'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='10569' id='41' mode='checkdropdown' name='Filter' param='[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Profitability:nk]' type-v2='filter' w='7578' x='178' y='55517'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='10569' id='47' mode='checkdropdown' name='Filter' param='[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Assets under management:nk]' type-v2='filter' w='7578' x='178' y='66086'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='10569' id='46' mode='checkdropdown' name='Filter' param='[federated.05cjvnv0puyauy192nj4z06se5wq].[none:City:nk]' type-v2='filter' w='7578' x='178' y='76655'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='10569' id='45' mode='checkdropdown' name='Filter' param='[federated.05cjvnv0puyauy192nj4z06se5wq].[my:Date:ok]' type-v2='filter' w='7578' x='178' y='87224'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='76' h='10570' id='38' is-fixed='true' name='Filter' w='7578' x='178' y='13240'>
+                  <layout-cache type-h='fixed' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='193' h='24158' id='9' is-fixed='true' name='Value created by Insurer' w='43636' x='8111' y='23345'>
+                  <layout-cache cell-count-w='6' minheight='182' type-h='scalable' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='193' h='24158' id='10' is-fixed='true' name='Premiums Over Time' w='43635' x='51747' y='23345'>
+                  <layout-cache cell-count-h='11' minwidth='180' non-cell-size-h='58' type-h='cell' type-w='scalable' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='194' h='24158' id='20' is-fixed='true' name='Cost Ratio Vs Profitability' w='43636' x='8111' y='48432'>
+                  <layout-cache cell-count-w='5' minheight='195' type-h='scalable' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='194' h='24158' id='26' is-fixed='true' name='Assets under management by Stakeholder' w='43635' x='51747' y='48432'>
+                  <layout-cache cell-count-w='7' minheight='155' type-h='scalable' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='192' h='24042' id='12' is-fixed='true' name='ShareHolding Distribution' w='43636' x='8111' y='73519'>
+                  <layout-cache cell-count-w='1' minheight='134' type-h='scalable' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='192' h='24042' id='18' is-fixed='true' name='Profitability by City and Tenure' w='43635' x='51747' y='73519'>
+                  <layout-cache cell-count-h='9' cell-count-w='4' non-cell-size-h='74' non-cell-size-w='101' type-h='cell' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{6F7C3CA1-F47B-49EC-8596-2214FD60AED2}' />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' name='Average age of Stakeholders'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{17B57BB3-6C7C-44E7-BF94-304918E24D17}' />
+    </window>
+    <window class='worksheet' name='Equity Value Created'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{AAFD73E7-18AA-49F4-9830-9D46F8E0C888}' />
+    </window>
+    <window class='worksheet' name='Highest Value Created by Insurer'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{06C408AC-67BD-4931-81FC-8FF6A1AE7F63}' />
+    </window>
+    <window class='worksheet' name='Filter'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card mode='checkdropdown' param='[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Profitability:nk]' type='filter' />
+            <card mode='checkdropdown' param='[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Premium 1:nk]' type='filter' />
+            <card mode='checkdropdown' param='[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Stakeholder:nk]' type='filter' />
+            <card mode='checkdropdown' param='[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Gender:nk]' type='filter' />
+            <card mode='checkdropdown' param='[federated.05cjvnv0puyauy192nj4z06se5wq].[my:Date:ok]' type='filter' />
+            <card mode='checkdropdown' param='[federated.05cjvnv0puyauy192nj4z06se5wq].[none:City:nk]' type='filter' />
+            <card mode='checkdropdown' param='[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Assets under management:nk]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.05cjvnv0puyauy192nj4z06se5wq].[my:Date:ok]</field>
+            <field>[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Assets under management:nk]</field>
+            <field>[federated.05cjvnv0puyauy192nj4z06se5wq].[none:City:nk]</field>
+            <field>[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Gender:nk]</field>
+            <field>[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Policy tenuer:nk]</field>
+            <field>[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Premium 1:nk]</field>
+            <field>[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Profitability:nk]</field>
+            <field>[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Stakeholder:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{35439D03-6E56-4FC1-9AD3-373FAACB273F}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Assets under management by Stakeholder'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Average age of Stakeholders'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Cost Ratio Vs Profitability'>
+          <zoom type='entire-view' />
+          <highlight field='[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Cost ratio:nk]'>
+            <bucket-selection />
+          </highlight>
+        </viewpoint>
+        <viewpoint name='Equity Value Created'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Filter' />
+        <viewpoint name='Highest Value Created by Insurer'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Premiums Over Time'>
+          <zoom type='entire-view' />
+          <highlight>
+            <color-one-way>
+              <field>[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Premium 1:nk]</field>
+            </color-one-way>
+          </highlight>
+        </viewpoint>
+        <viewpoint name='Profitability by City and Tenure'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='ShareHolding Distribution'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Total Premium'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Value created by Insurer'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='8' />
+      <simple-id uuid='{4BD1371D-922C-48BC-B837-38BCAF8269BF}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Assets under management by Stakeholder'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Assets under management:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Assets under management:nk]</field>
+            <field>[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Stakeholder:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{B0233D80-05D7-4190-A9B8-7E94EEA551D7}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Cost Ratio Vs Profitability'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Cost ratio:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Cost ratio:nk]</field>
+            <field>[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Profitability:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{B6D4DB50-64E0-4792-8ED9-FCF87219A726}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Premiums Over Time'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Premium 1:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Premium 1:nk]</field>
+            <field>[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Premium:nk]</field>
+            <field>[federated.05cjvnv0puyauy192nj4z06se5wq].[yr:Date:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{6E6E0D7C-A6A7-4C46-8D3D-1690461D0C0C}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Profitability by City and Tenure'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.05cjvnv0puyauy192nj4z06se5wq].[cnt:Profitability:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.05cjvnv0puyauy192nj4z06se5wq].[cnt:Profitability:qk]</field>
+            <field>[federated.05cjvnv0puyauy192nj4z06se5wq].[none:City:nk]</field>
+            <field>[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Policy tenuer:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{E9056D10-F1AA-4938-A8E1-BC297372CD14}' />
+    </window>
+    <window class='worksheet' hidden='true' name='ShareHolding Distribution'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Sahreholding pattern:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Sahreholding pattern:nk]</field>
+            <field>[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Stakeholder:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{3E357BA7-646D-4B3F-9B9E-203BA5126811}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Total Premium'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{A27264DB-8430-4564-B9BB-86D53FB1C9D5}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Value created by Insurer'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Insurer:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.05cjvnv0puyauy192nj4z06se5wq].[none:Insurer:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{81E330CB-70FA-451C-9F2B-080D826435A4}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Average age of Stakeholders' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAACsElEQVR4nO3XPWoUUBhG4Ts6OLG0cwti4QIEi4CkEkRwKYKdhbtwAZZaxFrFRhB/OhvT
+      WMRCUCGxmZiZ6y4yxXmeFbzN4eNbzDnngKhLux4AuyQA0gRAmgBIEwBpAiBNAKQJgDQBkCYA
+      0gRAmgBIEwBpAiBNAKQJgDQBkCYA0gRAmgBIEwBpAiBNAKQJgDQBkCYA0gRAmgBIEwBpAiBN
+      AKQJgDQBkCYA0gRAmgBIEwBpAiBNAKQJgDQBkCYA0gRAmgBIEwBpAiBNAKQJgDQBkCYA0gRA
+      mgBIEwBpAiBNAKQJgDQBkCYA0gRAmgBIEwBpAiBNAKQJgDQBkCYA0gRAmgBIEwBpAiBNAKQJ
+      gDQBkCYA0gRAmgBIEwBpAiBNAKQJgDQBkCYA0gRAmgBIEwBpAiBNAKQJgDQBkCYA0gRAmgBI
+      EwBpy10PgIs0t5vx6f27cXT8e+zfPRiLOefc9Si4KF/evBhPn70at29eHx+PpwBo2ZyfjdOT
+      k/H28Pl4+fmXH4CWy8srY2+xHt9+/BnXVksXgJYPrw/H0enV8WD/xrh38FAAtPz8/nU8evxk
+      /F3/G7fu3BcAPdvtZqzPzsfeaiUA2jzBpAmANAGQJgDSBECaAEgTAGkCIE0ApAmANAGQJgDS
+      BECaAEgTAGkCIE0ApAmANAGQJgDSBECaAEgTAGkCIE0ApAmANAGQJgDSBECaAEgTAGkCIE0A
+      pAmANAGQJgDSBECaAEgTAGkCIE0ApAmANAGQJgDSBECaAEgTAGkCIE0ApAmANAGQJgDSBECa
+      AEgTAGkCIE0ApAmANAGQJgDSBECaAEgTAGkCIE0ApAmANAGQJgDSBECaAEgTAGkCIE0ApAmA
+      NAGQJgDSBECaAEgTAGkCIE0ApAmANAGQJgDSBECaAEgTAGkCIE0ApAmAtP/dLE75TWQSFQAA
+      AABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='Dashboard 1' width='192'>
+      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
+      JPVOWwAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='Equity Value Created' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAAD50lEQVR4nO3YvWvdZRjH4fsck5PURSsthtZBh8aKShwUOwhVEEFB3KwUUqFRiaK2Q4eI
+      r2MnHUQnJZMQGwlFqCKJlIroJg5WUDMIUltNbGOtPUk5zc+h4D9Q4WC+1zU+8MC9fHheWk3T
+      NAWh2v0eAPpJAEQTANEEQDQBEE0ARBMA0QRANAEQTQBEEwDRBEA0ARBNAEQTANEEQDQBEE0A
+      RBMA0QRANAEQTQBEEwDRBEA0ARBNAEQTANEEQDQBEE0ARBMA0QRANAEQTQBEEwDRBEA0ARBN
+      AEQTANEEQDQBEE0ARBMA0QRANAEQTQBEEwDRBEA0ARBNAEQTANEEQDQBEE0ARBMA0QRANAEQ
+      TQBEEwDRBEA0ARBNAEQTANEEQDQBEE0ARBMA0QRANAEQTQBEEwDRBEA0ARBNAEQTANEEQDQB
+      EE0ARBMA0QRANAEQTQBEEwDRBEA0ARBNAEQTANEEQDQBEE0ARBMA0QRANAEQTQBsCOf/OF1z
+      H31Yx+a/qLXe5VrvXaovP/+0Zuc+rpW/16qq6vTPP9bMzEx9v/jLv/taTdM0/Roa/gtNb61e
+      nHiiNu/cXcs/fF2jD4zXHdeequnPTtatW6p+H7yl3poar/G9++ru3Q/WwvyJen/mSG2/bsgJ
+      wP9f02rX0wdfrqlDB2rXXTtraXmp7n/syXr78Ct108iW6nQ6dWrxZK00W+u5gy/U6A1V33y3
+      WFWuQGwA7WsG686xsTo+N10L3/5a+x5/tAY6w9V0z9aZlW512lUXuherPbSpBtrtGhxsV7e7
+      emVvn2eHq9c0Nfvem/XukeM19eprNXL9plo4+kF99dP5enb/njpx7JPqbN5avQvLde7cn7W0
+      0q1tIzfW2eXfaqDfs8PVWv3rTM0ena/VtaYOTO6vex/aUxMP314vvXG4pnvrtXfymdqxY6we
+      2XVzTU48VdtG76t7btte77z+vEcwG9f65V5d6q3X8FDnykLT1Oraag0NDVer1aoqv0CE8wYg
+      mgCIJgCiCYBoAiCaAIgmAKIJgGgCIJoAiCYAogmAaAIgmgCIJgCiCYBoAiCaAIgmAKIJgGgC
+      IJoAiCYAogmAaAIgmgCIJgCiCYBoAiCaAIgmAKIJgGgCIJoAiCYAogmAaAIgmgCIJgCiCYBo
+      AiCaAIgmAKIJgGgCIJoAiCYAogmAaAIgmgCIJgCiCYBoAiCaAIgmAKIJgGgCIJoAiCYAogmA
+      aAIgmgCIJgCiCYBoAiCaAIgmAKIJgGgCIJoAiCYAogmAaAIgmgCIJgCiCYBoAiCaAIgmAKIJ
+      gGgCIJoAiCYAogmAaAIgmgCIJgCiCYBoAiCaAIj2DwWKn72yj2C6AAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='Filter' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAAFjElEQVR4nO3aXVPbRgCF4bMrf9s4JCRN2sm0//8/tb0oJQEM/sSybFnaXiShEGeSNAm4
+      cN7nBrCFZpnZV9qVCSmlJMBU3PcAgH36rgAWi8WPGgewF98VAKsnPHQsgWCNAPC/VNeV6vrf
+      FUZK6XrF8e5r+iErEALAPUo6Of5LJ8fHytelynKj7XarxdWVUl0rXy5VbiulutKff/yuyXSq
+      sqq0vLpSXdc6PTtXscr19vRMUq3Tt2fKV4WqballXqiuKq03a5WbtVbF5qtG1LjbPxi4rdnq
+      6MXRQCenI602pfrthvqDjk5PxqpaA6XJTK9/eamYNaV6q/nFufJtUrbIlZQ0vlpfX/nLstT4
+      8lKpLpWSlIWo0Btos5hKIer1r7+pEcNnx8MdAPdqlS908mak4UFPz46eq92MKlZrxSxqXeQK
+      MVOIUZ1OV40sKmZRxapQp9tRDEGbolD1fmnU6fbUbjWlVKtSVLvZ1vOjp0rVViFr6gtzX5IU
+      vueDsPl8ruFw+K2/Dlyv7VOZa7Ft6kmvrfDRxK3rWiFGhQ/fh6Bw86CUVCcpvp/xKSUlSfHj
+      E30CSyDs1fVkbg902P70MTHGT35/4yS3rvYhBH3Fxf/d+b5+qMDjc30HWCwW//mxUp7nP3xA
+      wH26DuDg4OCbTsAeAA8ZSyBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBY
+      IwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBY
+      IwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBY
+      IwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBY
+      IwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYuxVASklFsVJV1fsa
+      D3CvGjd/SNVWl5djbbeVXv38SutVoUYjallsdXjQ1WQ609Nnz9VscOPA47Azk1udrg57bY3H
+      IxVV0GQ6U7te6mQ00fBwqNHoch/jBO7E7QBC0HI+1aJMOuj19WTYVzMLmhe1Olmti9GFeoP+
+      noYK/HghpZQ+d8CHt/N8qU63ryyG6/fm87mGw+HdjhC4Q40vHRDCuwnf7w/ufDDAfdvZA0zH
+      F5rNZsrX5ftXkiaTiSRptVxos+UJER6Pnceg5+cjZapUFGsdH/+t84ux8nyly9Gp3p6eqfrs
+      ggl4WG4FEEJQ/2CoQTvTqlhpOpvparmSJK2KtZqNbC+DBO7KziY4paQgKUmqq0qKUTEEpVSr
+      rqUsi9f7AjbBeOh2NsEfJneQlDUaN17PFPn8C4/MzpQuimIf4wD2YucOcH76Rlmrq2dPBprM
+      lzo6HOpyulC/11JelHr50wvFED51LuDB2bkDtHt9dVuZzs4vlIVas8mFYmeo6XisVK5VbKp9
+      jBO4Ezt3gF63pxiDjlotLfO1DoYDqdVWqUMVm1qtJhsBPB5f/FeIz+EpEB46LuewRgCwRgCw
+      RgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCw
+      RgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCw
+      RgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCw
+      RgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCw
+      RgCwRgCwRgCwRgCwRgCwRgCw9g++q5fgY2VjWwAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='Highest Value Created by Insurer' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAADa0lEQVR4nO3XvcsXZBSA4eNX9gGtIQi1NzX0DzQFJlSQbeIQBE0NDTUGhUQRDULRIEqZ
+      YfYFkVFJBoWjUhEJFZEmFWj0am9q9v7abHAthPe+rvkMZ7k5z7NmsVgsBqLWXusF4FoSAGkC
+      IE0ApAmANAGQJgDSBECaAEgTAGkCIE0ApAmANAGQJgDSBECaAEgTAGkCIE0ApAmANAGQJgDS
+      BECaAEgTAGkCIE0ApAmANAGQJgDSBECaAEgTAGkCIE0ApAmANAGQJgDSBECaAEgTAGkCIE0A
+      pAmANAGQJgDSBECaAEgTAGkCIE0ApAmANAGQJgDSBECaAEgTAGkCIE0ApAmANAGQJgDSBECa
+      AEgTAGkCIE0ApAmANAGQJgDSBECaAEgTAGkCIE0ApAmANAGQJgDSBECaAEgTAGkCIE0ApAmA
+      NAGQJgDSBECaAEgTAGkCIE0ApAmANAGw6lw8f3YOvHFwlv+aubT8+7z39sE5dPizuXR55arZ
+      9ddgP/gfLWbfS8/N7kPH564t98+ep56Yn9dtnnM/vD4nfvptHt2+9crc8aMfuwCsLl8f/WCO
+      fPXL3HjdzPx9ab745tt5cMfDs33bPfPpJ0fm3xuwNPv3fyQAVo8zp7+bZ3ftnW0P3DdrVi7P
+      r2fPzb1bt8xbr7w8hz8/NhfP/zGXr0zfPDtfeMYTiNXj1PcnZrHh+jmwf98sLS3Nm+8emrvv
+      uH1uu/PWOX3s0JxcWZ41F/+cU2eXZvOmW2bt2pk1i8Vica0Xh//S8pkfZ8cjj82Lew7Mlx/u
+      ned3vzMbb7hpHn9y52xaOTkPPf3avP/qrpkRAKveYi5euDDrNmyc9euufvELgDSfYNIEQJoA
+      SBMAaQIgTQCkCYA0AZAmANIEQJoASBMAaQIgTQCkCYA0AZAmANIEQJoASBMAaQIgTQCkCYA0
+      AZAmANIEQJoASBMAaQIgTQCkCYA0AZAmANIEQJoASBMAaQIgTQCkCYA0AZAmANIEQJoASBMA
+      aQIgTQCkCYA0AZAmANIEQJoASBMAaQIgTQCkCYA0AZAmANIEQJoASBMAaQIgTQCkCYA0AZAm
+      ANIEQJoASBMAaQIgTQCkCYA0AZAmANIEQJoASBMAaQIgTQCkCYA0AZAmANIEQJoASBMAaQIg
+      TQCkCYA0AZAmANIEQNo/6vyF30NmTEcAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
