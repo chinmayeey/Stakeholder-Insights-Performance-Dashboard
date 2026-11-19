@@ -123,7 +123,7 @@ Stakeholder-Insights-Performance-Dashboard/
 │   └── dashboard.png
 │
 ├── README.md
-└── [Your project files]
+└── project files
 ```
 
 Adjust the structure to reflect your actual uploaded project files.
